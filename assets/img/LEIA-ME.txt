@@ -1,0 +1,49 @@
+IMAGENS DO SITE — QHORE PRIME
+================================
+
+O site JÁ ESTÁ LIGADO a estes arquivos. Basta salvar as imagens nesta pasta
+(assets/img/) com EXATAMENTE estes nomes. Não é preciso editar o CSS — assim que
+o arquivo existir, a imagem aparece sozinha. Enquanto faltar, um aviso discreto
+com o nome do arquivo aparece no lugar (sem placeholder cinza chamativo).
+
+ARQUIVOS ESPERADOS (nomes exatos)
+---------------------------------
+logo-qhore-prime.png        -> logomarca principal (usada grande no hero)
+                               * aceita também logo-qhore-prime.jpeg como alternativa
+hero.png                    -> modelo do topo (PNG fundo TRANSPARENTE, recortada) — vertical
+historia.jpg                -> foto da seção "Nossa História" — vertical
+
+shape-power.png             -> frasco Shape Power 30 cáps. (fundo TRANSPARENTE) — card 30 + categoria "Equilíbrio"
+shape-power-10.png          -> frasco Shape Power 10 cáps. (fundo TRANSPARENTE) — card 10
+slim-fit-power.png          -> frasco Slim Fit Power 30 cáps. (fundo TRANSPARENTE) — card 30 + categoria "Emagrecimento"
+slim-fit-power-10.png       -> frasco Slim Fit Power 10 cáps. (fundo TRANSPARENTE) — card 10
+colageno-tipo-2.png         -> frasco Colágeno Tipo II Pro + PEA — card categoria "Saúde da Pele" (PENDENTE)
+imunoprime-fort.png         -> frasco Imunoprime Fort — card categoria "Saúde e Disposição" (PENDENTE)
+
+OBS.: a seção "Nossas categorias" da Home agora mostra os FRASCOS acima
+(em cards horizontais), e não mais fotos categoria-*.jpg. Os arquivos
+categoria-*.jpg deixaram de ser usados na Home:
+  categoria-emagrecimento.jpg (não usado)
+  categoria-alivio-das-dores.jpg (não usado)
+  categoria-beleza.jpg (não usado)
+  categoria-durma-melhor.jpg (não usado)
+  categoria-chas.jpg (não usado)
+
+ENQUADRAMENTO (já configurado automaticamente)
+----------------------------------------------
+- Frascos de produto: object-fit: contain (mostra o frasco inteiro, sem cortar).
+- Fotos humanas/ambientes (hero, história, categorias): object-fit: cover.
+- O logo do hero usa altura grande e responsiva, com destaque dourado.
+
+CONTATOS (ainda como placeholder)
+---------------------------------
+No index.html, troque quando tiver os dados reais:
+  WHATSAPP_NUMBER_HERE  -> número no formato 55 + DDD + número (ex.: 5511999999999)
+  EMAIL_HERE            -> e-mail de contato
+
+DICA DE TAMANHO
+---------------
+hero.jpg / historia.jpg ............ ~800x1000px (vertical)
+categoria-*.jpg .................... ~600x500px (horizontal)
+frascos *.png ...................... fundo transparente, ~1000x1000px
+logo-qhore-prime.png ............... fundo transparente de preferência

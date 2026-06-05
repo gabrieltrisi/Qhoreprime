@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Ambiente / segredos
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ferramentas / editores
+.claude/
+.vscode/
+
+# Logs
+*.log
+
+# Temporários de preview (gerados durante desenvolvimento)
+.preview/

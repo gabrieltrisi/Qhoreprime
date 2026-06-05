@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qhore Prime — Sua melhor versão, todos os dias</title>
+  <meta name="description" content="Qhore Prime — Beleza, Saúde e Bem-estar. Produtos premium para transformar o autocuidado em uma experiência mais consciente, leve e verdadeira." />
+
+  <!-- Favicon: monograma dourado -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f0dca6'/%3E%3Cstop offset='.5' stop-color='%23caa24f'/%3E%3Cstop offset='1' stop-color='%2394702a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='12' fill='%2323290f'/%3E%3Cg fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'%3E%3Cellipse cx='27' cy='30' rx='15' ry='19'/%3E%3Cpath d='M34 44q6 6 11 4'/%3E%3Cpath d='M40 22v22M40 32h9M49 22v22'/%3E%3C/g%3E%3C/svg%3E" />
+
+  <!-- Open Graph / redes sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Qhore Prime" />
+  <meta property="og:title" content="Qhore Prime — Sua melhor versão, todos os dias" />
+  <meta property="og:description" content="Suplementos premium de bem-estar. Transformamos o autocuidado em uma experiência mais consciente, leve e verdadeira." />
+  <meta property="og:image" content="assets/img/logo-qhore-prime.png" />
+  <meta property="og:url" content="https://www.qhoreprime.com.br/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Qhore Prime — Sua melhor versão, todos os dias" />
+  <meta name="twitter:description" content="Suplementos premium de bem-estar, beleza e qualidade de vida." />
+  <meta name="twitter:image" content="assets/img/logo-qhore-prime.png" />
+  <meta name="theme-color" content="#23290f" />
+
+  <!-- =====================================================================
+       ANALYTICS / TAGS  (estrutura pronta — substitua os IDs e descomente)
+       ---------------------------------------------------------------------
+       Google Tag Manager (GTM):  cole o snippet com seu GTM-XXXXXXX aqui
+       Google Analytics 4 (GA4):  gtag.js com G-XXXXXXXXXX
+       Meta Pixel:                fbq init com SEU_PIXEL_ID
+       Os data-* nos botões de CTA (data-track) já estão prontos p/ eventos.
+  ====================================================================== -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Sprite de estrela (reutilizável) -->
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute"><symbol id="ico-star" viewBox="0 0 24 24"><path d="M12 2.2l2.86 6.06 6.64.86-4.9 4.55 1.25 6.57L12 17.9l-5.91 3.34 1.25-6.57-4.9-4.55 6.64-.86z"/></symbol></svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Qhore Prime — início">
+        <span class="brand-mark" aria-hidden="true">
+          <!-- Monograma QH -->
+          <svg viewBox="0 0 64 64" width="46" height="46" role="img">
+            <defs>
+              <linearGradient id="goldBrand" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#e9d49a"/>
+                <stop offset="45%" stop-color="#c9a14e"/>
+                <stop offset="100%" stop-color="#9c7a2e"/>
+              </linearGradient>
+            </defs>
+            <g fill="none" stroke="url(#goldBrand)" stroke-width="2.4" stroke-linecap="round">
+              <ellipse cx="27" cy="27" rx="16" ry="20"/>
+              <path d="M34 40 q6 6 11 4" />
+              <path d="M40 22 v22 M40 32 h9 M49 22 v22"/>
+            </g>
+            <g stroke="url(#goldBrand)" stroke-width="1.6" stroke-linecap="round" fill="none">
+              <path d="M27 16 q3 9 0 22 M27 20 q5 1 8 5 M27 27 q5 0 8 4 M27 34 q5 -1 7 2"/>
+            </g>
+            <circle cx="50" cy="13" r="1.6" fill="url(#goldBrand)"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">QHORE</span>
+          <span class="brand-sub">PRIME</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#historia" class="nav-link">Sobre Nós</a>
+        <a href="#produtos" class="nav-link">Produtos</a>
+        <a href="#categorias" class="nav-link">Categorias</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contato" class="header-action" aria-label="Entrar / fale conosco">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20.5c0-3.8 3.5-5.8 7.5-5.8s7.5 2 7.5 5.8"/></svg>
+          <span>Entrar</span>
+        </a>
+        <a href="#produtos" class="header-action header-cart" aria-label="Ver produtos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h13l-1.3 9.2a2 2 0 0 1-2 1.8H9.3a2 2 0 0 1-2-1.8L5.6 5H3"/><circle cx="9.5" cy="21" r="1.2"/><circle cx="16.5" cy="21" r="1.2"/></svg>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO / HOME ============ -->
+  <section class="hero" id="home">
+    <div class="leaf leaf-tl" aria-hidden="true"></div>
+    <div class="leaf leaf-br" aria-hidden="true"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Suplementos Premium de Bem-estar</span>
+
+        <!-- Logo em destaque -->
+        <div class="hero-logo imgbox" aria-label="Qhore Prime">
+          <img class="real-img hero-logo-img" src="assets/img/logo-transparent.png" alt="Qhore Prime — Beleza, Saúde e Bem-estar"
+               onerror="if(this.dataset.try!=='1'){this.dataset.try='1';this.src='assets/img/logo-qhore-prime.png';}else{this.closest('.imgbox').classList.add('no-img');}" />
+          <span class="ph-fallback hero-logo-fallback">
+            <svg viewBox="0 0 120 120" width="100" height="100" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="goldHero" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#f0dca6"/>
+                  <stop offset="45%" stop-color="#caa24f"/>
+                  <stop offset="100%" stop-color="#94702a"/>
+                </linearGradient>
+              </defs>
+              <g fill="none" stroke="url(#goldHero)" stroke-width="3" stroke-linecap="round">
+                <ellipse cx="50" cy="50" rx="30" ry="38"/>
+                <path d="M64 76 q11 11 21 7"/>
+                <path d="M76 40 v42 M76 59 h17 M93 40 v42"/>
+              </g>
+              <g stroke="url(#goldHero)" stroke-width="2.4" stroke-linecap="round" fill="none">
+                <path d="M50 28 q6 18 0 44 M50 36 q9 2 15 9 M50 50 q9 0 15 7 M50 63 q9 -2 13 4"/>
+              </g>
+              <circle cx="95" cy="22" r="3" fill="url(#goldHero)"/>
+            </svg>
+            <span class="hero-wordmark">
+              <span class="hw-name">QHORE</span>
+              <span class="hw-sub">— PRIME —</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="gold-divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+        <h1 class="hero-title">Sua melhor versão,<br><em>todos os dias.</em></h1>
+        <p class="hero-text">
+          A Qhore Prime nasce com o propósito de transformar rotinas em resultados reais,
+          unindo ciência, natureza e inovação para cuidar do que mais importa: você.
+        </p>
+
+        <ul class="hero-seals" aria-label="Diferenciais">
+          <li>
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 6C9 8 7 13 7 18a9 9 0 0 0 18 0c0-6-6-9-7-15-2 4-5 4-8 5z"/><path d="M16 27V12"/></svg>
+            <span>Fórmulas<br>Premium</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M13 4v8L6 24a3 3 0 0 0 2.6 4.4h14.8A3 3 0 0 0 26 24l-7-12V4"/><path d="M11 4h10M11 18h10"/></svg>
+            <span>Ciência e<br>Inovação</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 26c0-6 4-10 10-10-1 6-4 10-10 10zM16 26c0-6-4-10-10-10 1 6 4 10 10 10zM16 26c0-7 0-12 0-18 4 5 4 12 0 18z"/></svg>
+            <span>Resultados<br>Comprovados</span>
+          </li>
+        </ul>
+
+        <div class="hero-actions">
+          <a href="#historia" class="btn btn-rose btn-lg" data-track="cta_hero_marca">Conheça a Qhore Prime <i class="btn-arrow" aria-hidden="true">→</i></a>
+        </div>
+
+        <div class="social-proof" aria-label="Avaliação média 4,9 de 5">
+          <span class="stars" aria-hidden="true">
+            <svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg>
+          </span>
+          <span class="sp-text"><strong>4,9/5</strong> · mais de <strong>2.000 clientes satisfeitos</strong></span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-photo hero-photo--person imgbox">
+          <img class="real-img" src="assets/img/hero.png" alt="Mulher Qhore Prime — bem-estar e autocuidado"
+               onerror="this.closest('.imgbox').classList.add('no-img')" />
+          <span class="ph-fallback">Imagem feminina / lifestyle<br><small>assets/img/hero.png</small></span>
+        </div>
+        <div class="hero-product imgbox">
+          <img class="real-img" src="assets/img/hero-produto.png" alt="Produto Qhore Prime em destaque"
+               onerror="this.closest('.imgbox').classList.add('no-img')" />
+          <span class="ph-fallback"><small>assets/img/hero-produto.png</small></span>
+        </div>
+        <div class="hero-seal" aria-hidden="true">
+          <span>SAÚDE<br>BELEZA<br>BEM-ESTAR</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra de benefícios -->
+    <div class="benefit-bar">
+      <div class="container benefit-grid">
+        <div class="benefit">
+          <svg class="b-ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 6C9 8 7 13 7 18a9 9 0 0 0 18 0c0-6-6-9-7-15-2 4-5 4-8 5z"/><path d="M16 27V12"/></svg>
+          <span>Ingredientes de alta qualidade</span>
+        </div>
+        <div class="benefit">
+          <svg class="b-ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l10 4v7c0 6-4 10-10 13C10 25 6 21 6 15V8z"/><path d="M12 16l3 3 6-7"/></svg>
+          <span>Compra segura e 100% protegida</span>
+        </div>
+        <div class="benefit">
+          <svg class="b-ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 10h14v11H3zM17 13h6l4 4v4h-10z"/><circle cx="9" cy="23" r="2.4"/><circle cx="22" cy="23" r="2.4"/></svg>
+          <span>Envio rápido e seguro</span>
+        </div>
+        <div class="benefit">
+          <svg class="b-ico" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 26S5 19 5 12a6 6 0 0 1 11-3 6 6 0 0 1 11 3c0 7-11 14-11 14z"/></svg>
+          <span>Atendimento especializado</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOSSA HISTÓRIA ============ -->
+  <section class="story" id="historia">
+    <div class="container story-grid">
+      <div class="story-photo reveal imgbox">
+        <img class="real-img" src="assets/img/sobre-nos.jpg" alt="Fundadora da Qhore Prime" loading="lazy" decoding="async"
+             onerror="this.closest('.imgbox').classList.add('no-img')" />
+        <span class="ph-fallback">Foto da marca / fundadora<br><small>assets/img/sobre-nos.jpg</small></span>
+        <div class="story-photo-tag">Propósito · Paixão · Transformação</div>
+      </div>
+
+      <div class="story-copy reveal">
+        <span class="eyebrow">Nossa História</span>
+        <h2 class="section-title">Mais que produtos,<br>um <em>propósito</em> de cuidado.</h2>
+        <div class="ornament" aria-hidden="true"></div>
+        <p>
+          A Qhore Prime surgiu da vontade de transformar o autocuidado em uma experiência
+          mais consciente, leve e verdadeira. Acreditamos que se sentir bem consigo mesmo
+          reflete em todas as áreas da vida, e por isso desenvolvemos produtos pensados para
+          promover bem-estar, equilíbrio e qualidade de vida na rotina de cada pessoa.
+        </p>
+        <p class="story-highlight">
+          Porque se sentir bem consigo mesmo muda tudo. E o nosso propósito é cuidar de você.
+        </p>
+        <a href="#produtos" class="btn btn-outline">Descubra nossos produtos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIAS ============ -->
+  <section class="categories" id="categorias">
+    <div class="leaf leaf-soft-l" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section-head reveal">
+        <h2 class="section-title">Nossas categorias</h2>
+        <p class="section-lead">Descubra o cuidado ideal para cada fase da sua jornada.</p>
+      </header>
+
+      <div class="cat-grid">
+        <a class="cat-card cat-card--featured reveal" href="categoria-emagrecimento.html">
+          <span class="cat-tag">Mais procurada</span>
+          <div class="cat-card__text">
+            <span class="cat-ico" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 5c-4 4-6 7-6 12a6 6 0 0 0 12 0c0-3-2-5-3-8-1 2-2 2-3 4z"/></svg></span>
+            <h3>Emagrecimento<br>e Metabolismo</h3>
+            <span class="cat-link">Explorar <i>→</i></span>
+          </div>
+          <div class="cat-card__img imgbox">
+            <img class="real-img" src="assets/img/slim-fit-power.png" alt="Slim Fit Power" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>slim-fit-power.png</small></span>
+          </div>
+        </a>
+
+        <a class="cat-card cat-card--green reveal" href="categoria-alivio-das-dores.html">
+          <div class="cat-card__text">
+            <span class="cat-ico" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 5c4 5 7 9 7 13a7 7 0 0 1-14 0c0-4 3-8 7-13z"/><path d="M12.5 19a3.2 3.2 0 0 0 2.5 3"/></svg></span>
+            <h3>Saúde da Pele,<br>Cabelos e Unhas</h3>
+            <span class="cat-link">Explorar <i>→</i></span>
+          </div>
+          <div class="cat-card__img imgbox">
+            <img class="real-img" src="assets/img/colageno-tipo-2.png" alt="Colágeno Tipo II Pro + PEA" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>colageno-tipo-2.png</small></span>
+          </div>
+        </a>
+
+        <a class="cat-card cat-card--green reveal" href="#produtos">
+          <div class="cat-card__text">
+            <span class="cat-ico" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M18 4 9 18h5l-1 10 9-15h-6z"/></svg></span>
+            <h3>Saúde<br>e Disposição</h3>
+            <span class="cat-link">Explorar <i>→</i></span>
+          </div>
+          <div class="cat-card__img imgbox">
+            <img class="real-img" src="assets/img/imunoprime-fort.png" alt="Imunoprime Fort" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>imunoprime-fort.png</small></span>
+          </div>
+        </a>
+
+        <a class="cat-card reveal" href="#produtos">
+          <div class="cat-card__text">
+            <span class="cat-ico" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 25c-6 0-10-3-10-6 3-1 7 0 10 3 3-3 7-4 10-3 0 3-4 6-10 6z"/><path d="M16 25c-3-2-5-6-5-10 3 1 5 5 5 10zM16 25c3-2 5-6 5-10-3 1-5 5-5 10z"/></svg></span>
+            <h3>Equilíbrio<br>e Bem-estar</h3>
+            <span class="cat-link">Explorar <i>→</i></span>
+          </div>
+          <div class="cat-card__img imgbox">
+            <img class="real-img" src="assets/img/shape-power.png" alt="Shape Power" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>shape-power.png</small></span>
+          </div>
+        </a>
+      </div>
+
+      <div class="cat-actions reveal">
+        <a href="#produtos" class="btn btn-outline btn-lg">Ver todos os produtos <i class="btn-arrow" aria-hidden="true">→</i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUTOS ============ -->
+  <section class="products" id="produtos">
+    <div class="container">
+      <header class="section-head reveal">
+        <span class="eyebrow flourish">Emagrecimento</span>
+        <h2 class="section-title">Nossos produtos para <em>emagrecimento</em></h2>
+        <p class="section-lead">Fórmulas premium, desenvolvidas com ciência, natureza e inovação.</p>
+      </header>
+
+      <div class="prod-grid">
+        <!-- Shape Power 30 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-tag">Mais vendido</div>
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/shape-power.png" alt="Shape Power 30 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/shape-power.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Shape Power</h3>
+            <span class="prod-caps">30 cápsulas</span>
+            <p>Fórmula avançada que auxilia na queima de gordura e acelera o metabolismo com mais energia.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 359,90 por</span>
+              <strong>R$ 319,90</strong>
+              <span class="inst">em até 3x sem juros</span>
+              <div class="parcela"><strong>R$ 106,63</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Shape%20Power%20%2830%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+
+        <!-- Shape Power 10 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/shape-power-10.png" alt="Shape Power 10 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/shape-power-10.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Shape Power</h3>
+            <span class="prod-caps">10 cápsulas</span>
+            <p>Fórmula avançada que auxilia na queima de gordura e acelera o metabolismo com mais energia.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 179,90 por</span>
+              <strong>R$ 159,90</strong>
+              <span class="inst">em até 2x sem juros</span>
+              <div class="parcela"><strong>R$ 79,95</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Shape%20Power%20%2810%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+
+        <!-- Slim Fit Power 30 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/slim-fit-power.png" alt="Slim Fit Power 30 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/slim-fit-power.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Slim Fit Power</h3>
+            <span class="prod-caps">30 cápsulas</span>
+            <p>Auxilia no emagrecimento, controla o apetite e acelera o metabolismo de forma natural.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 289,90 por</span>
+              <strong>R$ 249,90</strong>
+              <span class="inst">em até 3x sem juros</span>
+              <div class="parcela"><strong>R$ 83,30</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Slim%20Fit%20Power%20%2830%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+
+        <!-- Slim Fit Power 10 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/slim-fit-power-10.png" alt="Slim Fit Power 10 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/slim-fit-power-10.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Slim Fit Power</h3>
+            <span class="prod-caps">10 cápsulas</span>
+            <p>Auxilia no emagrecimento, controla o apetite e acelera o metabolismo de forma natural.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 149,90 por</span>
+              <strong>R$ 129,90</strong>
+              <span class="inst">em até 2x sem juros</span>
+              <div class="parcela"><strong>R$ 64,95</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Slim%20Fit%20Power%20%2810%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+
+        <!-- Colágeno Tipo II Pro + PEA 30 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/colageno-tipo-2.png" alt="Colágeno Tipo II Pro + PEA 30 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/colageno-tipo-2.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Colágeno Tipo II <span class="prod-plus">Pro + PEA</span></h3>
+            <span class="prod-caps">30 cápsulas</span>
+            <p>Auxilia na saúde das articulações e na redução de dores e inflamações.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 249,90 por</span>
+              <strong>R$ 219,90</strong>
+              <span class="inst">em até 3x sem juros</span>
+              <div class="parcela"><strong>R$ 73,30</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Col%C3%A1geno%20Tipo%20II%20Pro%20%2B%20PEA%20%2830%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+
+        <!-- Colágeno Tipo II Pro + PEA 10 cápsulas -->
+        <article class="prod-card reveal">
+          <div class="prod-img imgbox">
+            <img class="real-img" src="assets/img/colageno-tipo-2-10.png" alt="Colágeno Tipo II Pro + PEA 10 cápsulas" loading="lazy" decoding="async"
+                 onerror="this.closest('.imgbox').classList.add('no-img')" />
+            <span class="ph-fallback"><small>assets/img/colageno-tipo-2-10.png</small></span>
+          </div>
+          <div class="prod-body">
+            <h3>Colágeno Tipo II <span class="prod-plus">Pro + PEA</span></h3>
+            <span class="prod-caps">10 cápsulas</span>
+            <p>Auxilia na saúde das articulações e na redução de dores e inflamações.</p>
+            <div class="prod-price">
+              <span class="from">De R$ 99,90 por</span>
+              <strong>R$ 89,90</strong>
+              <span class="inst">em até 2x sem juros</span>
+              <div class="parcela"><strong>R$ 44,95</strong><small>a parcela</small></div>
+            </div>
+            <a href="#contato" class="btn btn-primary btn-block"><svg class="btn-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3"/><rect x="5" y="10" width="14" height="10" rx="2"/></svg>Comprar agora</a>
+            <a class="wpp-link" href="https://wa.me/5571992398624?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Col%C3%A1geno%20Tipo%20II%20Pro%20%2B%20PEA%20%2810%20c%C3%A1psulas%29." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="testimonials" id="depoimentos">
+    <div class="leaf leaf-soft-l" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section-head reveal">
+        <span class="eyebrow flourish">Depoimentos</span>
+        <h2 class="section-title">Resultados que <em>inspiram confiança</em></h2>
+        <p class="section-lead">Quem escolhe a Qhore Prime sente a diferença no dia a dia.</p>
+      </header>
+
+      <div class="test-grid">
+        <article class="test-card reveal">
+          <span class="stars" aria-hidden="true">
+            <svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg>
+          </span>
+          <p class="test-quote">"Me sinto mais disposta, leve e confiante. Hoje meu autocuidado faz parte da rotina."</p>
+          <div class="test-author">
+            <span class="avatar" aria-hidden="true">MS</span>
+            <span class="test-name">Mariana S.<small>Cliente Qhore Prime</small></span>
+          </div>
+        </article>
+
+        <article class="test-card reveal">
+          <span class="stars" aria-hidden="true">
+            <svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg>
+          </span>
+          <p class="test-quote">"Os produtos superaram minhas expectativas. Atendimento excelente e entrega rápida."</p>
+          <div class="test-author">
+            <span class="avatar" aria-hidden="true">FR</span>
+            <span class="test-name">Fernanda R.<small>Cliente Qhore Prime</small></span>
+          </div>
+        </article>
+
+        <article class="test-card reveal">
+          <span class="stars" aria-hidden="true">
+            <svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg><svg class="star"><use href="#ico-star"/></svg>
+          </span>
+          <p class="test-quote">"Percebi melhorias na disposição e no bem-estar logo nas primeiras semanas."</p>
+          <div class="test-author">
+            <span class="avatar" aria-hidden="true">JM</span>
+            <span class="test-name">Juliana M.<small>Cliente Qhore Prime</small></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GARANTIA ============ -->
+  <section class="guarantee">
+    <div class="container guarantee-inner">
+      <div class="seal-30" aria-hidden="true">
+        <span class="seal-num">30</span>
+        <span class="seal-lbl">DIAS<br>GARANTIA</span>
+      </div>
+      <div class="guarantee-copy reveal">
+        <h2 class="section-title">Satisfação <em>garantida</em></h2>
+        <p>30 dias de garantia ou seu dinheiro de volta. Produzido com padrões internacionais de qualidade, para que você experimente com total confiança.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <header class="section-head reveal">
+        <span class="eyebrow flourish">FAQ</span>
+        <h2 class="section-title">Dúvidas <em>frequentes</em></h2>
+      </header>
+
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>Como devo consumir os produtos?<span class="faq-ico" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Cada produto possui orientações específicas descritas no rótulo.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Em quanto tempo posso perceber resultados?<span class="faq-ico" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Os resultados variam conforme organismo, rotina e objetivos individuais.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Os produtos possuem garantia?<span class="faq-ico" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Sim. Oferecemos garantia de satisfação conforme as condições informadas na compra.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Posso falar com um especialista?<span class="faq-ico" aria-hidden="true"></span></summary>
+          <div class="faq-answer"><p>Sim. Nossa equipe está disponível pelo WhatsApp para orientar você.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BLOG (placeholder) ============ -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <header class="section-head reveal">
+        <span class="eyebrow flourish">Blog</span>
+        <h2 class="section-title">Conteúdos de <em>bem-estar</em></h2>
+        <p class="section-lead">Em breve: artigos sobre autocuidado, nutrição e qualidade de vida.</p>
+      </header>
+
+      <div class="blog-grid">
+        <article class="blog-card reveal">
+          <div class="blog-thumb"><span>Em breve</span></div>
+          <div class="blog-body">
+            <span class="blog-tag">Autocuidado</span>
+            <h3>Como criar uma rotina de autocuidado consciente</h3>
+            <p>Pequenos hábitos diários que transformam a forma como você cuida de si.</p>
+            <span class="blog-link">Em breve <i>→</i></span>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-thumb"><span>Em breve</span></div>
+          <div class="blog-body">
+            <span class="blog-tag">Nutrição</span>
+            <h3>Suplementação inteligente: por onde começar</h3>
+            <p>Entenda como escolher fórmulas alinhadas aos seus objetivos e à sua rotina.</p>
+            <span class="blog-link">Em breve <i>→</i></span>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-thumb"><span>Em breve</span></div>
+          <div class="blog-body">
+            <span class="blog-tag">Bem-estar</span>
+            <h3>Equilíbrio e qualidade de vida no dia a dia</h3>
+            <p>Estratégias simples para mais energia, foco e disposição ao longo da semana.</p>
+            <span class="blog-link">Em breve <i>→</i></span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contact" id="contato">
+    <div class="leaf leaf-tr" aria-hidden="true"></div>
+    <div class="container contact-inner reveal">
+      <span class="eyebrow eyebrow-light">Entre em contato</span>
+      <h2 class="section-title light">Pronta para cuidar de você<br>com mais <em>leveza e qualidade?</em></h2>
+      <p class="section-lead light">Fale com a nossa equipe e descubra o produto ideal para a sua rotina.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-lg" href="https://wa.me/5571992398624?text=Ol%C3%A1%20Qhore%20Prime!" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-ghost btn-lg" href="mailto:qhoreprime@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name gold">QHORE PRIME</span>
+        <span class="footer-tag">Beleza · Saúde · Bem-estar</span>
+        <p>Transformando o autocuidado em uma experiência mais consciente, leve e verdadeira.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Rodapé">
+        <h4>Navegação</h4>
+        <a href="#home">Home</a>
+        <a href="#historia">Sobre Nós</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <a href="https://wa.me/5571992398624" target="_blank" rel="noopener">WhatsApp: 5571992398624</a>
+        <a href="mailto:qhoreprime@gmail.com">qhoreprime@gmail.com</a>
+        <p>Atendimento de seg. a sex., das 9h às 18h.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year"></span> Qhore Prime. Todos os direitos reservados.</span>
+        <span>Este produto não substitui uma alimentação equilibrada. Consulte um profissional de saúde.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a class="wpp-float" href="https://wa.me/5571992398624?text=Ol%C3%A1%20Qhore%20Prime!" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.4.7 4.6 1.9 6.5L3 29l7.2-2.3c1.8 1 3.9 1.5 6 1.5 7 0 12.5-5.5 12.5-12.7C28.7 8.5 23 3 16 3zm0 22.7c-1.9 0-3.7-.5-5.2-1.4l-.4-.2-4.3 1.4 1.4-4.2-.2-.4a10 10 0 0 1-1.6-5.4C5.7 9.9 10.3 5.3 16 5.3c5.7 0 10.3 4.6 10.3 10.2S21.7 25.7 16 25.7zm5.7-7.6c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.3 8.3 0 0 1-4.1-3.6c-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5 .8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2.1-.8 2.4-1.7.3-.8.3-1.6.2-1.7-.1-.2-.3-.3-.6-.5z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
