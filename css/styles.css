@@ -577,8 +577,8 @@ em{font-style:italic}
 .story-photo--person .real-img{object-fit:contain;object-position:bottom center}
 /* Sobre Nós: retrato emoldurado (cover) com o rosto bem enquadrado */
 .story-photo .real-img{object-position:50% 14%}
-/* mantém o rosto enquadrado dentro do arco do hero */
-.hero-photo .real-img{object-position:50% 28%}
+/* mantém o rosto enquadrado dentro do arco do hero (ajustado p/ não cortar o topo da cabeça em telas largas/tablet) */
+.hero-photo .real-img{object-position:50% 14%}
 /* modelo recortada (PNG sem fundo): figura inteira, apoiada e centralizada no arco */
 .hero-photo--person .real-img{object-fit:contain;object-position:bottom center;padding:16px 10px 0}
 /* produtos / frascos -> contain (frasco inteiro) */
